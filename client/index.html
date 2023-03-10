@@ -8,13 +8,42 @@
     <title>Banksy Fanpage</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="">About</a>
-        </nav>
-    </header>
     <main>
-        <h1>Banksy</h1>
+        <section class="hero-image">
+            <div class="hero-image-content">
+                <h1>Banksy</h1>
+            </div>
+        </section>
+        <section class="intro">
+            <div class="intro-content">
+                <h3>Who is Banksy?</h3>
+                <p>The elusive English street artist is a true enigma. His artworks, laced with biting social commentary and sardonic wit, have mesmerized audiences worldwide. From the labyrinthine streets of London to the pulsating heart of New York, Banksy's pieces are as enigmatic as the artist himself. Yet, the real question remains unanswered - who is Banksy?</p>
+                <p>A true mystery, his identity is shrouded in secrecy, adding to the allure of his art. The world may never unravel the secrets that Banksy keeps hidden, but one thing is for sure: his presence has left an indelible mark on the world of art and culture, and his influence will continue to inspire generations to come.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./resources/dumpster.jpeg" alt="dumpster fire ash">
+            </div>
+        </section>
+        <section class="ritzrat">
+            <div class="ritzrat-img">
+                <img src="./resources/ritzrat.jpeg" alt="ritz rat">
+            </div>
+            <div class="ritzrat-content">
+                <p>"You can win the rat race but you're still a rat.</p>
+                <p>The human race is an unfair and stupid competition. A lot of the runners don't even get decent sneakers or clean drinking water.</p>
+                <p>Some runners are born with a massive head start, every possible help along the way and still the referees seem to be on their side.</p>
+                <p>It's not surprising a lot of people have given up competing altogether and gone to sit in the grandstand, eat junk food and shout abuse.</p>
+                <p>What we need in this race is a lot more streakers." - Banksy</p>
+            </div>
+        </section>
+        <section class="urban-dictionary">
+            <form id="urban-form">
+                <label for="urbandictionary">Urban Dictionary API</label>
+                <input type="text" placeholder="Enter a street word" name="urbandictionary" id="urban-input" />
+                <button>Submit</button>
+            </form>
+            <div id="urban-answer"></div>
+        </section>
         <div class="art-container">
             <div class="art-piece">
                 <span class="art-image"></span>
